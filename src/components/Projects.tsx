@@ -28,103 +28,6 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Modern Residential Complex",
-      description:
-        "Complete interior design solution for a high-end villa with emphasis on natural lighting and ventilation.",
-      images: [
-        "./project-1-exterior.jpeg",
-        "./project-1-living.jpeg",
-        "./project-1-hall.jpeg",
-        "./project-1-bedroom1.jpeg",
-        "./project-1-bedroom2.jpeg",
-        "./project-1-bedroom3.jpeg",
-        "./project-1-entrence.jpeg",
-      ],
-      imageCategories: [
-        {
-          name: "Exterior",
-          images: ["./project-1-exterior.jpeg"],
-          icon: <Building className="w-5 h-5" />,
-        },
-        {
-          name: "Living Room",
-          images: ["./project-1-living.jpeg"],
-          icon: <Sofa className="w-5 h-5" />,
-        },
-        {
-          name: "Hall",
-          images: ["./project-1-hall.jpeg"],
-          icon: <Home className="w-5 h-5" />,
-        },
-        {
-          name: "Bedrooms",
-          images: [
-            "./project-1-bedroom1.jpeg",
-            "./project-1-bedroom2.jpeg",
-            "./project-1-bedroom3.jpeg",
-          ],
-          icon: <Bed className="w-5 h-5" />,
-        },
-        {
-          name: "Entrance",
-          images: ["./project-1-entrence.jpeg"],
-          icon: <Home className="w-5 h-5" />,
-        },
-      ],
-      tools: ["AutoCAD", "SketchUp", "Photoshop"],
-      tags: [
-        "Residential Design",
-        "Luxury Villas",
-        "Interior Design",
-        "Space Planning",
-      ],
-      location: "Vijayawada, Andhra Pradesh",
-      year: "2023",
-      details:
-        "This project involved creating a comprehensive interior design for a luxury villa, focusing on maximizing natural light and ensuring optimal ventilation throughout the space. The design incorporated sustainable materials and custom furniture pieces tailored to the client's lifestyle.",
-    },
-    {
-      id: 2,
-      title: "Sustainable Villa Layout Planning",
-      description:
-        "Eco-friendly residential design with focus on sustainable materials and energy efficiency.",
-      images: [
-        "./project-2-exterior.png",
-        "./project-2-dining.png",
-        "./project-2-living-room-exterior.png",
-        "./project-2-hall.png",
-      ],
-      imageCategories: [
-        {
-          name: "Exterior",
-          images: ["./project-2-exterior.png"],
-          icon: <Building className="w-5 h-5" />,
-        },
-        {
-          name: "Dining Area",
-          images: ["./project-2-dining.png"],
-          icon: <Sofa className="w-5 h-5" />,
-        },
-        {
-          name: "Living Room",
-          images: ["./project-2-hall.png"],
-          icon: <Sofa className="w-5 h-5" />,
-        },
-      ],
-      tools: ["AutoCAD", "SketchUp", "Photoshop"],
-      tags: [
-        "Sustainable Design",
-        "Residential Planning",
-        "Eco-Friendly",
-        "Energy Efficient",
-      ],
-      location: "Hyderabad, Telangana",
-      year: "2023",
-      details:
-        "A comprehensive sustainable villa design that prioritizes environmental consciousness while maintaining luxury and comfort. The project featured solar integration, rainwater harvesting systems, and locally sourced materials.",
-    },
-    {
-      id: 3,
       title: "Luxury Villa Interior Design",
       description:
         "Contemporary residential design with innovative space utilization and modern aesthetics.",
@@ -208,6 +111,104 @@ const Projects = () => {
       details:
         "A modern residential complex design focusing on efficient space utilization and contemporary aesthetics. The project incorporated smart home technologies and community spaces that foster social interaction among residents.",
     },
+    {
+      id: 1,
+      title: "Modern Residential Complex",
+      description:
+        "Complete interior design solution for a high-end villa with emphasis on natural lighting and ventilation.",
+      images: [
+        "./project-1-exterior.jpeg",
+        "./project-1-living.jpeg",
+        "./project-1-hall.jpeg",
+        "./project-1-bedroom1.jpeg",
+        "./project-1-bedroom2.jpeg",
+        "./project-1-bedroom3.jpeg",
+        "./project-1-entrence.jpeg",
+      ],
+      imageCategories: [
+        {
+          name: "Exterior",
+          images: ["./project-1-exterior.jpeg"],
+          icon: <Building className="w-5 h-5" />,
+        },
+        {
+          name: "Living Room",
+          images: ["./project-1-living.jpeg"],
+          icon: <Sofa className="w-5 h-5" />,
+        },
+        {
+          name: "Hall",
+          images: ["./project-1-hall.jpeg"],
+          icon: <Home className="w-5 h-5" />,
+        },
+        {
+          name: "Bedrooms",
+          images: [
+            "./project-1-bedroom1.jpeg",
+            "./project-1-bedroom2.jpeg",
+            "./project-1-bedroom3.jpeg",
+          ],
+          icon: <Bed className="w-5 h-5" />,
+        },
+        {
+          name: "Entrance",
+          images: ["./project-1-entrence.jpeg"],
+          icon: <Home className="w-5 h-5" />,
+        },
+      ],
+      tools: ["AutoCAD", "SketchUp", "Photoshop"],
+      tags: [
+        "Residential Design",
+        "Luxury Villas",
+        "Interior Design",
+        "Space Planning",
+      ],
+      location: "Vijayawada, Andhra Pradesh",
+      year: "2023",
+      details:
+        "This project involved creating a comprehensive interior design for a luxury villa, focusing on maximizing natural light and ensuring optimal ventilation throughout the space. The design incorporated sustainable materials and custom furniture pieces tailored to the client's lifestyle.",
+    },
+    {
+      id: 3,
+      title: "Sustainable Villa Layout Planning",
+      description:
+        "Eco-friendly residential design with focus on sustainable materials and energy efficiency.",
+      images: [
+        "./project-2-exterior.png",
+        "./project-2-dining.png",
+        "./project-2-living-room-exterior.png",
+        "./project-2-hall.png",
+      ],
+      imageCategories: [
+        {
+          name: "Exterior",
+          images: ["./project-2-exterior.png"],
+          icon: <Building className="w-5 h-5" />,
+        },
+        {
+          name: "Dining Area",
+          images: ["./project-2-dining.png"],
+          icon: <Sofa className="w-5 h-5" />,
+        },
+        {
+          name: "Living Room",
+          images: ["./project-2-hall.png"],
+          icon: <Sofa className="w-5 h-5" />,
+        },
+      ],
+      tools: ["AutoCAD", "SketchUp", "Photoshop"],
+      tags: [
+        "Sustainable Design",
+        "Residential Planning",
+        "Eco-Friendly",
+        "Energy Efficient",
+      ],
+      location: "Hyderabad, Telangana",
+      year: "2023",
+      details:
+        "A comprehensive sustainable villa design that prioritizes environmental consciousness while maintaining luxury and comfort. The project featured solar integration, rainwater harvesting systems, and locally sourced materials.",
+    },
+  
   ];
 
   const openModal = (project: Project) => {
